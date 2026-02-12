@@ -19,49 +19,6 @@ body {
     background-color: #ffffff;
 }
 
-/*header {
-    display: flex;
-    align-items: center;
-    background-color: #17abb3; /*turquoise*/
-    /*color: #ffffff;
-    padding: 30px 40px;
-    gap: 30px; /* espace entre photo et texte
-}*/
-/*header {
-    background-color: #17abb3; /* Turquoise */
-    /*color: #ffffff;
-    text-align: center;
-    padding: 30px;
-}*/
-
-/*header img {
-    width: 140px;
-    height: 130px;
-    border-radius: 50%; /* Rond */
-    /*border: 4px solid #ffffff; /* Bordure blanche autour */
-    /*object-fit: cover;
-    /*margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 2em;
-    margin-bottom: 5px;
-}
-
-header h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    font-weight: normal;
-}
-
-header p {
-    margin: 5px 0;
-}
-
-header a {
-    color: #ffffff;
-    text-decoration: underline;
-}*/
 header {
     display: flex;
     align-items: center; /* centre la photo et la colonne de texte verticalement */
@@ -113,7 +70,6 @@ header > img {
     margin: 0;
 }
 
-
 /* Liens */
 .contacts a {
     color: #ffffff;
@@ -158,8 +114,8 @@ section h3 {
 
 section p {
     margin-bottom: 15px;
-    text-align: justify; /* Texte justifié */
-    text-indent: 30px; /* Indentation première ligne */
+    text-align: justify;
+    text-indent: 30px; 
 }
 section ul {
     list-style: none;
@@ -190,16 +146,3 @@ a[href*="google.com/maps"] {
     text-decoration: none;
     color: #ffffff;
 }
-
-/* =================== RESPONSIVE (optionnel mais pratique) =================== 
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 90%;
-    }
-    main {
-        flex-direction: column;
-    }
-    aside, section {
-        width: 100%;
-    }
-}*/
